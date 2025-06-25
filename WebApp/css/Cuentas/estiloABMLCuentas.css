@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap')
+	;
+
+.card-abml {
+	width: 100%;
+	height: 180px;
+	font-size: 0.9rem;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-abml:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.icono {
+	font-size: 1.8rem;
+	margin-bottom: 8px;
+}
+
+.btn-abml {
+	font-size: 0.85rem;
+}
+
+@media ( min-width : 768px) {
+	.card-col {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
